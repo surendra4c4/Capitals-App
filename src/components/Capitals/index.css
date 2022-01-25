@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #93c5fd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content-container {
+  background-color: #f8fafc;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.heading {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.capital-para-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.select-class {
+  width: 100px;
+  height: 25px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #cbd2d9;
+  border-radius: 5px;
+  outline: none;
+  margin-right: 7px;
+  margin-top: 8px;
+  color: #000000;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.para-class {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 13px;
+}
+
+.country-name {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 17px;
+  align-self: flex-start;
+}
